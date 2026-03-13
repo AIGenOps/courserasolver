@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>MCQ Solver</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>MCQ Auto Solver</h1>
+
+<label>Gemini API Key</label>
+<input type="password" id="apikey" placeholder="Enter Gemini API Key">
+
+<label>Text to Remove</label>
+<input type="text" id="removeText" placeholder="Text to remove from questions">
+
+<label>Paste MCQ Questions</label>
+<textarea id="questions" rows="15" placeholder="Paste MCQs here"></textarea>
+
+<button onclick="solveQuestions()">Solve MCQs</button>
+
+<h2>Answers</h2>
+<pre id="output"></pre>
+
+<script src="script.js"></script>
+</body>
+</html>
